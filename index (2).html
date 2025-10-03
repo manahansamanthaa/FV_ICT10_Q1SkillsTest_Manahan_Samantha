@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+     <title>Food Order</title>
+</head>
+
+</head>
+
+
+<body>
+    <body class="container mt-4">
+     <div class="text-center bg-danger text-black p-3 rounded"> 
+       <h1 id="webtitle"></h1> 
+         <p id="desc1"></p> 
+     </div>
+    <br>
+    <h2>Menu:</h2>
+    <form>
+        <input type="checkbox" id="corndogs" name="food1" value="corndogs">
+        <label for="food1">Corndogs</label><br>
+
+        <input type="checkbox" id="tteokbokki" name="food2" value="tteokbokki">
+        <label for="tteokbokki">Tteokboki</label><br>
+
+        <input type="checkbox" id="odeng" name="food3" value="odeng">
+        <label for="odeng">Odeng</label><br>
+
+        <input type="checkbox" id="spicy noodles" name="food4" value="spicy noodles">
+        <label for="spicy noodles">Spicy Noodles</label><br>
+
+        <input type="checkbox" id="bingsu" name="food5" value="bingsu">
+        <label for="bingsu">Bingsu</label><br>
+
+        <input type="checkbox" id="banana milk" name="food6" value="banana milk">
+        <label for="banana milk">Banana Milk</label><br>
+
+    </form>
+
+    <p>Name:</p>
+     <input type="text" id="name" placeholder="Enter here..."/> 
+     <p>Adress:</p>
+     <input type="text" id="address" placeholder="Enter here..."/> 
+     <p>Mobile Number:</p>
+     <input type="text" id="mobile_number" placeholder="Enter here..."/> 
+
+     <br>
+
+     <button type="submit" py-click ="generate">Generate</button> 
+    
+    <pre id="message"></pre>
+     <script type="py" src="mainST.py"></script>
+    
+</body>
+    
+
+
